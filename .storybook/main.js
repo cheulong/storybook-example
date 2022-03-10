@@ -5,6 +5,7 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-actions",
+    "storybook-addon-designs",
   ],
   framework: "@storybook/react",
 };
