@@ -19,6 +19,9 @@ const Template = (args) => <CancelButton {...args} />;
 
 export const primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
+primary.args = {
+  label: "Button",
+};
 primary.parameters = {
   design: {
     type: "figma",
