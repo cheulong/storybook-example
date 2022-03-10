@@ -13,6 +13,13 @@ export default {
   argTypes: {
     onClick: { action: "clicked" },
   },
+  parameters: {
+    docs: {
+      description: {
+        component: "Confirm button component is BaseButton with type confirm.",
+      },
+    },
+  },
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

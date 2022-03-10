@@ -12,6 +12,13 @@ export default {
   argTypes: {
     onClick: { action: "clicked" },
   },
+  parameters: {
+    docs: {
+      description: {
+        component: "Cancel button component is BaseButton with type cancel.",
+      },
+    },
+  },
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
